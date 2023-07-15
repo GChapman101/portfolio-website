@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact</h1>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html"><li>About</li></a>
+        <a href="projects.html"><li>Projects</li></a>
+        <a href="skills.html"><li>Skills</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+      </ul>
+    </nav>
+
+    <main>
+      <br />
+      <div class="popup" id="popup">
+        <img src="OIP.jpg" alt="" />
+        <h1>Thank You</h1>
+        <br />
+        <p>
+          Your details have been successfully <br />
+          submitted. Thanks
+        </p>
+        <br />
+        <button onclick="closePopup()" id="ok">ok</button>
+      </div>
+      <form action="http:\\ www.google.com\search" method="get" id="form">
+        <div class="innerform">
+        <h1>Reach Out To Me!</h1><br>
+        <br>
+        <input
+          type="text"
+          id="first"
+          name="first"
+          placeholder="first name"
+          required
+        /><br />
+        <br />
+        <input
+          type="text"
+          id="last"
+          name="last"
+          placeholder="last name"
+          required
+        /><br />
+        <br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="email"
+          required
+        /><br />
+        <br />
+        <input
+          type="number"
+          id="phone"
+          name="phone"
+          min="11"
+          placeholder="1-211-222-3333"
+          required
+        /><br />
+        <br />
+        <textarea
+          name="msg"
+          id="msg"
+          cols="30"
+          rows="10"
+          placeholder="Tell us what you think"
+        ></textarea
+        ><br />
+        <br />
+        <button disabled="disabled" id="btn2">submit</button>
+        <button name="btn" id="btn">clear</button>
+      </div>
+      </form>
+    </main>
+    <footer>
+      <ul>
+        <a href="index.html"><li>About</li></a>
+        <a href="projects.html"><li>Projects</li></a>
+        <a href="skills.html"><li>Skills</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+      </ul>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
